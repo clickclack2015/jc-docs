@@ -1,0 +1,859 @@
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][v][I]
+Telenav build#7151089
+Android build#10
+Android Firmware#2.3.5
+Device Type#HTC-PC36100
+PTN#9188108211
+Encrypted PTN#%82%BC7%3E%03%F2U%DF%22%AF%90%DC%21%EB%9F%21
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][g]
+********** ServiceLocator.loadServiceLocatorInfo ***
+[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][g]------ domainMap ---------[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][v][I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][g]routing.http = http://tn62-epic-routing.telenav.com:80[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][g]common.http = http://tn62-epic-common.telenav.com:80[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][g]clientRes.http = http://clientresourcecdn.telenav.com[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][g]resource.http = http://tn62-epic-resource.telenav.com:80[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][g]dsr.http = http://tn62-epicdsrc.telenav.com:8081/dsr[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:25[I][a][I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]vectorMap.http = http://vectortilecdn.telenav.com/US_TA_12M6[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]addons.http = http://telenav.rotator.hadj7.adjuggler.net/servlet/ajrotator/147404/0/vh?z=telenav[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]mislog.http = http://tn62-epic-resource.telenav.com:80[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]dsr = socket://tn62-epicdsrc.telenav.com:8080[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]dim.http = http://headers-epic.telenav.com/telenavCServer?nodeType=ajaxTxNode;deviceside=true;ConnectionUID=WAP2 trans[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]login.http = http://tn62-epic-login.telenav.com:80[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]login.https = https://tn7x-login.telenav.com:443/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]poi.http = http://tn62-epic-poi.telenav.com:80[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]ecommerce.http = https://ecommerce.telenav.com[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]------ end domainMap ---------[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]------ actionMap ---------[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Static_Min_Delay_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Alerts_Moving_Map = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]ConfirmPurchase = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]GetPTN = http://headers-epic.telenav.com/telenavCServer?nodeType=ajaxTxNode;deviceside=true;ConnectionUID=WAP2 trans[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]ShareAddress20 = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]ClientLogging = http://tn62-epic-resource.telenav.com:80/log-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]GetToken = http://headers-epic.telenav.com/telenavCServer?nodeType=ajaxTxNode;deviceside=true;ConnectionUID=WAP2 trans[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]GET_ETA = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Streaming_Map = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]CheckSelected_Deviation = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Min_Delay_Deci_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Avoid_Incidents_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SyncPurchased = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SinglePurchase = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Selected_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Chunked_Dynamic_Route = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]bannerAds = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Static_Avoid_Selected_Seg_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Get_Extra_Info = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SyncClientSettingData = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SyncPreference = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]FetchAllStops = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Reverse_Route = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]OneBox = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Map = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]forgetPin = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]InformPurchase = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]GetEncryptionPtn = http://headers-epic.telenav.com/telenavCServer?nodeType=ajaxTxNode;deviceside=true;ConnectionUID=WAP2 trans[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]GetMissingAudio = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]ConfirmStops = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Get_Extra_Edge = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SyncNewStops_Global = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]FetchAllStops_Global = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Check_Deviation = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Selection_Route = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Purchase = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]DeclinePurchase = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Static_Min_Delay_Deci_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Get_Account_Status = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Login = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]FeedbackSave = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SyncNewStops = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Chunk_CheckSelected_Deviation = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]BillBoardAds = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SwitchRegion = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]ShareAddress = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Dsm = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]TrafficMap = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Chunk_Selection_Route = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SearchPoi20 = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SendPTNVerificationCode = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Logging = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]SwitchLocale = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Avoid_Selected_Seg_Deci_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]LocationSearch = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Reverse_Geocoding = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Incident_Report = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Traffic_Static_Avoid_Selected_Seg_Deci_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]ValidateAddress = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Cancel = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:26[I][g]Startup = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Feedback = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]AutoSuggestList = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Decimated_MultiRoute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]CombinationSyncResource = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]GetFlowType = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]MessageProcess = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]ConfirmRecentStops = http://tn62-epic-common.telenav.com:80/common-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]I18NWeather = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Traffic_Summary = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Commute_Alert_Details = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Traffic_Avoid_Selected_Seg_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]SearchPoi = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]ValidateAirport20 = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]SyncResource = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]SyncServiceLocator = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]ValidateAirport = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]SentAddress = http://tn62-epic-poi.telenav.com:80/poi_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Decimated_Route = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]MISReporting = http://tn62-epic-resource.telenav.com:80/log-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Static_Route = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Dynamic_Route = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]CellTower = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]CacheCities = http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Upsell = http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]Traffic_Min_Delay_Reroute = http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]------ end actionMap ---------[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][g]
+***********************************
+[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][marts_launch_app][I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][n][I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][ab]DB-Test   enter to resume           : 1357505785712[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][ab]DB-Test   start to resume           : 1357505785712[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][d]controller is activated.[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][d]handleController(3000001). current state: 5, next state: ~2001, action: 4003001[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- getMandatoryNodeDao ---------  [I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ********* MandatoryNodeDao Constructor ********* com.telenav.persistent.android.b@40604860[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] xxxxxxxxx MandatoryNodeDao Loading ... xxxxxxxx [I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ********* MandatoryNodeDao Loading ... *********  mandatoryNode HashId : com.telenav.data.datatypes.mandatory.a@4060abc8[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][q]isEnabledCellLocation: true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][q]requestTimes: 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][q]firstWaitTime: 0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][q]requestRetryInterval: 0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][q]liveTime: 300[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][k]isForce_xtra_injection : true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][k]isForce_time_injection : true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][v]size: 1352[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][d]handleModel(2003001). current state: ~2001, next state: ~2002, action: -1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][p]refreshAudioInventory : -58786561,-33,208142271,-294920,2147483647,0,-805634048,-1,2031615,0,0,-2147483648,2147352703,0,0,-1048576,268698111,67174464,16793616,0,0,0,0,0,0,0,0,0,0,0,0,0,1423525[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- : 253[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 10[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 100[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 101[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 102[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 103[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 104[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 105[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 106[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 107[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 108[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 109[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 11[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 110[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 112[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 113[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:27[I][h] ------- persistent_audio --------- load id : 115[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 116[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 117[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 118[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 119[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 12[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 120[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 121[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 122[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 123[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 124[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 125[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 126[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 127[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 128[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 129[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 13[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 130[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 131[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 132[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 133[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 134[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 135[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 136[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 137[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 138[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 139[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 14[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 140[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 141[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 142[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 143[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 144[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 145[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 146[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 147[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 148[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 149[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 15[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 150[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 151[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 152[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 153[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 154[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 155[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 156[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 157[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 158[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 17[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:28[I][h] ------- persistent_audio --------- load id : 18[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 19[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 2[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 20[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 208[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 209[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 21[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 211[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 212[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 213[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 214[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 215[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 216[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 217[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 218[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 219[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 22[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 222[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 223[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 224[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 225[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 226[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 227[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 228[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 229[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 230[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 231[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 232[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 233[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 234[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 235[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 236[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 237[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 238[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 239[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 240[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 241[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 242[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 243[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 244[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 245[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 246[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 247[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 248[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 249[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 250[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 251[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 252[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 253[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 254[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 255[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 256[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 257[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 258[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 259[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 26[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 260[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 261[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 262[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 263[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 264[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 265[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 266[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 267[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 268[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 269[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 27[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 270[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 271[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 273[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 274[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 275[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 276[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 28[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 29[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 3[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 30[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 31[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 32[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 33[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 34[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 35[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 36[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 38[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 383[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 384[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 385[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 386[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 387[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 388[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 389[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 39[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 390[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 4[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 40[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 401[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 402[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 403[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 404[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 405[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 406[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 407[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 408[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 409[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 41[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 410[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 411[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 412[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 413[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 414[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 42[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 43[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 44[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 45[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 46[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 47[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 48[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:29[I][h] ------- persistent_audio --------- load id : 49[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 5[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 50[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 500[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 501[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 502[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 503[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 504[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 505[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 506[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 507[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 508[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 509[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 51[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 510[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 511[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 512[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 513[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 514[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 515[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 516[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 517[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 518[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 519[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 52[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 520[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 53[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 530[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 54[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 540[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 55[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 550[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 56[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 560[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 57[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 570[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 58[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 580[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 59[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 590[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 6[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 60[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 600[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 61[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 62[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 63[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 64[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 65[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 66[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 67[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 68[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 69[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 7[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 71[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 72[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 73[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 74[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 75[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 76[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 77[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 78[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 79[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 80[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 81[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 82[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 85[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 86[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 90[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 91[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h] ------- persistent_audio --------- load id : 99[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]addNetworkData --- index : 1 , lat : 3622490 , lon : -9599395[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][g]onReceive: got intent Intent { act=com.telenav.navservice.NAVSERVICECALLBACK } with action com.telenav.navservice.NAVSERVICECALLBACK[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]addNetworkData --- index : 2 , lat : 3622490 , lon : -9599395[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][l]start init map cache in initMapCache(), cache path = /data/data/com.telenav.app.android.sprint/files/TN70_sprint_opengl_map_cache[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][l]finish map cache in initMapCache()[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h]set vector data base url = http://vectortilecdn.telenav.com/US_TA_12M6[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h]set traffic Url= http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 4[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 3[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 2[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 4[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 3[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 2[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][r]==Preload Airport==    done!!![I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][b]onSurfaceCreated()[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][b]onSurfaceChanged()[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h]set vector data base url = http://vectortilecdn.telenav.com/US_TA_12M6[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][h]set traffic Url= http://tn62-epic-routing.telenav.com:80/nav-map-cserver/telenav-server-pb[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][e]startFlow: hasServiceLocator[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][e]startFlow: hasPtn[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][d]handleCommand(1001002).[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][d]handle(1001002). current state: ~2002, next state: 5, action: -1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][n][I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][n][I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][d]controller is deactivated.[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][d]controller is released.[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][d]BillingAccountDao -- getUpsellDisplayTimes ACCOUNT_UPSELL_DISPLAY_TIMES: 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][c]Monitoring GPS in thread 17[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][c]add config_medium.json[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][c]createView for dpi = 240.0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][ay]add config_day.json[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][ab]DB-Test    wait to pause,           : 1357505790462[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 4[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 3[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 2[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][ab]DB-Test    need more time           : 1357505790472[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]addNetworkData --- index : 3 , lat : 3622490 , lon : -9599395[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 4[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 3[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 2[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][g]Mislog : 722(session_summary)[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][e]syncResourcesInDeactivate[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][e]Mislog : Sending Log : 722,[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]
+it
+{
+    b: 
+    g: [com.telenav.j2me.framework.protocol.iq(key = [10001, 10003, 10106, 10012, 10105, 10104, 10230, 10231, 10103, 10121, 10102, 10120, 10101, 10122]   data = [722, 0, 24, 1357505790621, 0, -9599395, 0, 0, 3622490, 0, -1, 0, -1, 0]   )]
+    d: Default
+    f: []
+    e: true
+    c: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]
+sv
+{
+    z: 7.1.5
+    B: 7151089
+    x: supersonic
+    D: AGPS
+    v: ANDROID
+    F: mp3hi
+    t: SN_bundle
+    H: PNG
+    r: SNNAVPROG
+    J: 3
+    p: 203
+    L: null
+    n: AAAAAAB16q0AAAE8NOSvS9M5QbKSYL3yhfcG9EMo4GA=
+    N: 480
+    l: NA
+    P: 800
+    j: en_US
+    h: 0644
+    f: 2538
+    T: Sprint
+    d: %94%5Cn%F9n%DC%CC%DB
+    V: null
+    b: %82%BC7%3E%03%F2U%DF%22%AF%90%DC%21%EB%9F%21
+    X: null
+    Z: null
+    Y: false
+    aa: false
+    W: false
+    c: true
+    U: true
+    e: true
+    S: true
+    g: true
+    R: 0
+    i: true
+    Q: true
+    k: true
+    O: true
+    m: true
+    M: false
+    o: true
+    K: true
+    q: true
+    I: true
+    s: true
+    G: true
+    u: true
+    E: true
+    w: true
+    C: true
+    y: true
+    A: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 4[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 3[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 2[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:30[I][a]pos is not valid, i = 0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+ie
+{
+    d: [com.telenav.j2me.framework.protocol.ib(dataPackType = 253   gpsLat = 3622498   gpsLon = -9599408   gpsElapse = 4951762   mobileNetworkCode = 120   mobileCountryCode = 310   locationAreaCode = 4164   cellId = 12353   baseStationId = 1   networkType = 6   radioType = 1   )]
+    c: true
+    b: 0
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+sv
+{
+    z: 7.1.5
+    B: 7151089
+    x: supersonic
+    D: AGPS
+    v: ANDROID
+    F: mp3hi
+    t: SN_bundle
+    H: PNG
+    r: SNNAVPROG
+    J: 3
+    p: 203
+    L: null
+    n: AAAAAAB16q0AAAE8NOSvS9M5QbKSYL3yhfcG9EMo4GA=
+    N: 480
+    l: NA
+    P: 800
+    j: en_US
+    h: 0644
+    f: 2538
+    T: Sprint
+    d: %94%5Cn%F9n%DC%CC%DB
+    V: null
+    b: %82%BC7%3E%03%F2U%DF%22%AF%90%DC%21%EB%9F%21
+    X: null
+    Z: null
+    Y: false
+    aa: false
+    W: false
+    c: true
+    U: true
+    e: true
+    S: true
+    g: true
+    R: 0
+    i: true
+    Q: true
+    k: true
+    O: true
+    m: true
+    M: false
+    o: true
+    K: true
+    q: true
+    I: true
+    s: true
+    G: true
+    u: true
+    E: true
+    w: true
+    C: true
+    y: true
+    A: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][d]connect to http://tn62-epic-resource.telenav.com:80/log-cserver/telenav-server-pb,  mode = 1, timeout = true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][d]connect to http://tn62-epic-resource.telenav.com:80/resource-cserver/telenav-server-pb,  mode = 1, timeout = true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]LocationSearch -- Start Open Connection :1357505790838[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+qh
+{
+    b: Navigation
+    c: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]MISReporting -- Start Open Connection :1357505790865[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+sv
+{
+    z: 7.1.5
+    B: 7151089
+    x: supersonic
+    D: AGPS
+    v: ANDROID
+    F: mp3hi
+    t: SN_bundle
+    H: PNG
+    r: SNNAVPROG
+    J: 3
+    p: 203
+    L: null
+    n: AAAAAAB16q0AAAE8NOSvS9M5QbKSYL3yhfcG9EMo4GA=
+    N: 480
+    l: NA
+    P: 800
+    j: en_US
+    h: 0644
+    f: 2538
+    T: Sprint
+    d: %94%5Cn%F9n%DC%CC%DB
+    V: null
+    b: %82%BC7%3E%03%F2U%DF%22%AF%90%DC%21%EB%9F%21
+    X: null
+    Z: null
+    Y: false
+    aa: false
+    W: false
+    c: true
+    U: true
+    e: true
+    S: true
+    g: true
+    R: 0
+    i: true
+    Q: true
+    k: true
+    O: true
+    m: true
+    M: false
+    o: true
+    K: true
+    q: true
+    I: true
+    s: true
+    G: true
+    u: true
+    E: true
+    w: true
+    C: true
+    y: true
+    A: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+ps
+{
+    b: []
+    c: []
+    d: []
+    e: []
+    f: []
+    g: []
+    h: []
+    i: []
+    j: []
+    n: true
+    k: 1356234331006
+    m: 1356234331006
+    l: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+qb
+{
+    g: null
+    e: com.telenav.j2me.framework.protocol.ox(lat = 3622509   lon = -9599415   stopType = 0   stopStatus = 0   isGeocoded = true   isShareAddress = false   label = N BOSTON PL   firstLine = 4923 N BOSTON PL   city = TULSA   state = OK   stopId = 0   zip = 74126   country = US   )
+    d: []
+    c: true
+    f: true
+    b: 0
+    h: false
+    i: true
+    j: true
+    k: false
+    l: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]MISReporting --   End Open Connection :1357505791087 , Elapse Time : 222[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]MISReporting -- Start Write Data :1357505791087[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]MISReporting --   End Write Data :1357505791088 , Elapse Time : 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]MISReporting -- Start Read Data :1357505791088[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]LocationSearch --   End Open Connection :1357505791088 , Elapse Time : 250[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]LocationSearch -- Start Write Data :1357505791088[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]LocationSearch --   End Write Data :1357505791088 , Elapse Time : 0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]LocationSearch -- Start Read Data :1357505791089[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+sv
+{
+    z: 7.1.5
+    B: 7151089
+    x: supersonic
+    D: AGPS
+    v: ANDROID
+    F: mp3hi
+    t: SN_bundle
+    H: PNG
+    r: SNNAVPROG
+    J: 3
+    p: 203
+    L: null
+    n: AAAAAAB16q0AAAE8NOSvS9M5QbKSYL3yhfcG9EMo4GA=
+    N: 480
+    l: NA
+    P: 800
+    j: en_US
+    h: 0644
+    f: 2538
+    T: Sprint
+    d: %94%5Cn%F9n%DC%CC%DB
+    V: null
+    b: %82%BC7%3E%03%F2U%DF%22%AF%90%DC%21%EB%9F%21
+    X: null
+    Z: null
+    Y: false
+    aa: false
+    W: false
+    c: true
+    U: true
+    e: true
+    S: true
+    g: true
+    R: 0
+    i: true
+    Q: true
+    k: true
+    O: true
+    m: true
+    M: false
+    o: true
+    K: true
+    q: true
+    I: true
+    s: true
+    G: true
+    u: true
+    E: true
+    w: true
+    C: true
+    y: true
+    A: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a][I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+de
+{
+    b: [com.telenav.j2me.framework.protocol.qn(type = SERVER_DRIVEN_PARAMETER   version = [1.5.5]   ),com.telenav.j2me.framework.protocol.qn(type = SERVICE_LOCATOR   version = [1.0.06--880283870-1.0.02]   ),com.telenav.j2me.framework.protocol.qn(type = POI_CATEGORY_TREE   version = [1.1.0]   ),com.telenav.j2me.framework.protocol.qn(type = AIR_PORT   version = [1.0.0]   ),com.telenav.j2me.framework.protocol.qn(type = RESOURCE_FORMAT   version = [1.0]   ),com.telenav.j2me.framework.protocol.qn(type = HOT_BRAND   version = []   ),com.telenav.j2me.framework.protocol.qn(type = HOT_POI_CATEGORY   version = [1.0.0]   ),com.telenav.j2me.framework.protocol.qn(type = MAP_DATA_UPGRADE   version = [1.0]   ),com.telenav.j2me.framework.protocol.qn(type = AUDIO_AND_RULE   version = [-58786561,-33,208142271,-294920,2147483647,0,-805634048,-1,2031615,0,0,-2147483648,2147352703,0,0,-1048576,268698111,67174464,16793616,0,0,0,0,0,0,0,0,0,0,0,0,0,1423525,1314699514559|mp3hi, 1048570,0,12744,0|mp3hi]   ),com.telenav.j2me.framework.protocol.qn(type = DSR_SDP   version = [1.0.01]   ),com.telenav.j2me.framework.protocol.qn(type = CAR_MODEL   version = [, ]   ),com.telenav.j2me.framework.protocol.qn(type = CLIENT_SETTING   version = [1.0.02_FE_TRAFFIC_FE_DYNAMIC_ROUTE_FE_MAP_LAYER_SATELLITE_FE_MAP_LAYER_TRAFFIC_FE_DSR_FE_NAV_TRAFFIC, FE_TRAFFIC, FE_DYNAMIC_ROUTE, FE_MAP_LAYER_SATELLITE, FE_MAP_LAYER_TRAFFIC, FE_DSR, FE_NAV_TRAFFIC]   )]
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+pj
+{
+    b: 1.0.02_FE_TRAFFIC_FE_DYNAMIC_ROUTE_FE_MAP_LAYER_SATELLITE_FE_MAP_LAYER_TRAFFIC_FE_DSR_FE_NAV_TRAFFIC
+    f: com.telenav.j2me.framework.protocol.db(detail = [com.telenav.j2me.framework.protocol.lo(key = 23   value = 3   ), com.telenav.j2me.framework.protocol.lo(key = 18   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 24   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 15   value = 5   ), com.telenav.j2me.framework.protocol.lo(key = 25   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 26   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 13   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 27   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 28   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 12   value = 1   ), com.telenav.j2me.framework.protocol.lo(key = 3   value = 3   ), com.telenav.j2me.framework.protocol.lo(key = 2   value = 2   ), com.telenav.j2me.framework.protocol.lo(key = 10   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 1   value = 1   ), com.telenav.j2me.framework.protocol.lo(key = 0   value = 1   ), com.telenav.j2me.framework.protocol.lo(key = 7   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 120   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 9   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 103   value = 0   ), com.telenav.j2me.framework.protocol.lo(key = 101   value = 1   )]   )
+    d: 1351693493314
+    e: true
+    c: true
+    g: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][a]
+sv
+{
+    z: 7.1.5
+    B: 7151089
+    x: supersonic
+    D: AGPS
+    v: ANDROID
+    F: mp3hi
+    t: SN_bundle
+    H: PNG
+    r: SNNAVPROG
+    J: 3
+    p: 203
+    L: null
+    n: AAAAAAB16q0AAAE8NOSvS9M5QbKSYL3yhfcG9EMo4GA=
+    N: 480
+    l: NA
+    P: 800
+    j: en_US
+    h: 0644
+    f: 2538
+    T: Sprint
+    d: %94%5Cn%F9n%DC%CC%DB
+    V: null
+    b: %82%BC7%3E%03%F2U%DF%22%AF%90%DC%21%EB%9F%21
+    X: null
+    Z: null
+    Y: false
+    aa: false
+    W: false
+    c: true
+    U: true
+    e: true
+    S: true
+    g: true
+    R: 0
+    i: true
+    Q: true
+    k: true
+    O: true
+    m: true
+    M: false
+    o: true
+    K: true
+    q: true
+    I: true
+    s: true
+    G: true
+    u: true
+    E: true
+    w: true
+    C: true
+    y: true
+    A: true
+}[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][e]Background Sync : QUERY_LOCATION_SEARCH : false , QUERY_SYNC_APACHE_RES : false , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : false[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][b]----i18n---sendSyncResRequest: i18n/i18n.index.gz[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][d]connect to http://clientresourcecdn.telenav.com/7.1.0/ANDROID/SNNAVPROG/i18n/i18n.index.gz,  mode = 1, timeout = true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]i18n/i18n.index.gz -- Start Open Connection :1357505791304[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][e]Background Sync : QUERY_LOCATION_SEARCH : false , QUERY_SYNC_APACHE_RES : false , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : false[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][e]Background Sync : QUERY_LOCATION_SEARCH : false , QUERY_SYNC_APACHE_RES : false , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : false[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]LocationSearch -- Length : 52[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]chunked:null[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][d][I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][marts_loc]1294263684000,1357505791570,3624018,-9595241,0,0,3445,false,0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]LocationSearch --   End Read Data :1357505791578 , Elapse Time : 489[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][l]response.status:0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][d]connect to http://tn62-epic-login.telenav.com:80/login_startup_service/telenav-server-pb,  mode = 1, timeout = true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]SyncPurchased -- Start Open Connection :1357505791602[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][e]Background Sync : QUERY_LOCATION_SEARCH : true , QUERY_SYNC_APACHE_RES : false , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : false[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]MISReporting -- Length : 24[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]chunked:null[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][d][I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][e]Mislog : Log Sent Successfully[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]MISReporting --   End Read Data :1357505791664 , Elapse Time : 576[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][l]response.status:0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][ab]DB-Test    need more time           : 1357505791673[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]i18n/i18n.index.gz --   End Open Connection :1357505791694 , Elapse Time : 390[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]i18n/i18n.index.gz -- Start Write Data :1357505791694[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]i18n/i18n.index.gz --   End Write Data :1357505791695 , Elapse Time : 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]i18n/i18n.index.gz -- Start Read Data :1357505791695[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][e]Background Sync : QUERY_LOCATION_SEARCH : true , QUERY_SYNC_APACHE_RES : false , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][e]Background Sync : QUERY_LOCATION_SEARCH : true , QUERY_SYNC_APACHE_RES : false , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]SyncPurchased --   End Open Connection :1357505791910 , Elapse Time : 308[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][e]Background Sync : QUERY_LOCATION_SEARCH : true , QUERY_SYNC_APACHE_RES : false , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]SyncPurchased -- Start Write Data :1357505791910[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]SyncPurchased --   End Write Data :1357505791912 , Elapse Time : 2[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]SyncPurchased -- Start Read Data :1357505791912[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]i18n/i18n.index.gz -- Length : 277[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]chunked:null[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][c]----i18n--- received: i18n/i18n.index.gz[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:31[I][Network Profiling]i18n/i18n.index.gz --   End Read Data :1357505791991 , Elapse Time : 296[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][l]response.status:0[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][e]Background Sync : QUERY_LOCATION_SEARCH : true , QUERY_SYNC_APACHE_RES : false , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][f]----i18n---finish1: 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][f]----i18n---finish2: 1, count: 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][f]----i18n---sync locale: en_US are the same with current locale.[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][b]Finished[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][f]----i18n---finish3: 1[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][e]Background Sync : QUERY_LOCATION_SEARCH : true , QUERY_SYNC_APACHE_RES : false , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][e]Background Sync : QUERY_LOCATION_SEARCH : true , QUERY_SYNC_APACHE_RES : true , QUERY_BATCH_REQUEST : true , QUERY_MISLOG_REQUEST : true[I]
+[TELENAV_7.1.5.7151089] 1-6 14:56:32[I][h] ********* isSyncFinished -- 1 ********* [I]
